@@ -104,7 +104,8 @@ console.log();
 //8uzd?
 console.log();
 
-let sakinys2;
-for (let i = 0; i < grupiokai.length; i++) {
-  console.log(grupiokai[i]);
+let sakinys2='';
+for (let i = 0; i < studentai.length; i++) {
+  sakinys2+=studentai[i]+', ';
 }
+console.log(sakinys2)
