@@ -1,3 +1,5 @@
+//
+//  link i uzduotis https://docs.google.com/document/d/1UnM5MzO7KPf-atlz3HXPJN8XlaN37nlUJ7fp6GwvIZ8/edit#heading=h.40g6yguvm5k8
 //1uzd
 console.log()
     console.log( '   -----1uzd--------    ');
@@ -95,7 +97,7 @@ console.log()
     console.log( '   ---------  8 uzd  -----    ');
     console.log()
 
-//8uzd
+//8uzd?
 console.log()
   
 
