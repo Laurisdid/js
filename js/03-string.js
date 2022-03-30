@@ -27,3 +27,17 @@ const clientname= 'Maryte';
 const clientage= 77;
 const clientSentence = 'Client '+ clientname + ' is '+ clientage +' years old.';
 console.log(clientSentence);
+
+const backtickClient =`Client ${clientname} is ${clientage} years old.`
+console.log(backtickClient)
+
+const n1 = 7;
+const n2 = 5;
+const rez = n1 + n2;
+const ats = `${n1} + ${n2} = ${rez}`
+console.log(ats);
+
+
+const abc = 'abcdef';
+const abcDydis = abc.length;
+console.log(`Abecele "${abc}" dydis yra ${abcDydis} simboliu.`)
