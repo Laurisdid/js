@@ -36,3 +36,39 @@ const jonasVidurkis = vidurkis(jonas);
 console.log('Jonas:',jonasVidurkis);
 const onaVidurkis = vidurkis(ona);
 console.log('Ona:',onaVidurkis);
+
+
+console.log()
+// funkcija gauna varda grazina sakini
+
+
+function vardoAnalize(name){
+    return `Vardo ${name} pirma raide yra ${name[0]} ir vardas sudarytas is ${name.length} raidziu`
+}
+petroVardas = vardoAnalize('petras');
+console.log(petroVardas);
+
+maryteVardas = vardoAnalize('maryte');
+console.log(maryteVardas);
+
+onaVardas = vardoAnalize('ona');
+console.log(onaVardas);
+
+
+
+function suma(a, b){
+    return `${a}+${b}= ${a+b}`
+}
+
+const s1 = suma(2,3)
+console.log(s1);
+
+const s2 = suma(0.1,0.2)
+console.log(s2);
+
+const s3 = suma(-2,-3)
+console.log(s3);
+
+
+
+
