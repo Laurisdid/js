@@ -72,3 +72,16 @@ console.log(s3);
 
 
 
+
+function palygink(num1, num2) {
+    if (num1 > num2) {
+        return num1 + ' yra didesnis uz ' + num2;
+    } else if (num1 < num2) {
+        return num1 + ' yra mazesnis uz ' + num2;
+    } else {
+        return num1 + ' yra lygus ' + num2;
+    }
+}
+const rezultatas = palygink (10,20);
+console.log(rezultatas); 
+
