@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "scripts": { 
+    "liekana": "nodemon ./js/11-liekana.js",
+    "restring": "nodemon ./js/10-reverse-string.js",
+    "suma": "nodemon ./js/09-suma-intervale.js",
     "arrow": "nodemon ./js/08-arrow-functions.js",
     "loops": "nodemon ./js/07-loops.js",
     "function": "nodemon ./js/06-function.js",
