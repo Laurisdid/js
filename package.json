@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": { 
+    "letters": "nodemon ./js/15-letters.js",
     "bignum": "nodemon ./js/14-bigNum.js",
     "numsize": "nodemon ./js/13-numsize.js",
     "daugyba": "nodemon ./js/12-daugyba.js",
