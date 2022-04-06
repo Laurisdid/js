@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": { 
+    "class": "nodemon ./js/17-class.js",
+    "object": "nodemon ./js/16-object.js",
     "letters": "nodemon ./js/15-letters.js",
     "bignum": "nodemon ./js/14-bigNum.js",
     "numsize": "nodemon ./js/13-numsize.js",
