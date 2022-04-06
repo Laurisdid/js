@@ -39,7 +39,7 @@ class Bankomatas{
         this.money+=money;
         console.log(`${this.street}: inesta ${money} pinigu`)
     }
-    
+
     cashOut(money){
         if (!this.turnedOn) {
             console.log('Bankomatas neijungtas')
@@ -55,10 +55,14 @@ class Bankomatas{
         }
         if (this.money <money){
             console.log('bankomate tiek pinigu nera')
+            return;
         }
         console.log('bando isimti pinigu')
         this.money-=money;
         console.log(`${this.street}: isimta ${money} pinigu`)
+    }
+    status() {
+        console.log(`${this.street}: siuo metu pinigu likutis yra ${this.money}`);
     }
 }
 
