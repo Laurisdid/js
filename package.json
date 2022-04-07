@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": { 
+    "method": "nodemon ./js/18-method.js",
     "class": "nodemon ./js/17-class.js",
     "object": "nodemon ./js/16-object.js",
     "letters": "nodemon ./js/15-letters.js",
